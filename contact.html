@@ -1,1 +1,81 @@
-<!doctype html><html><head><title>Contact</title></head><body><h1>Contact</h1></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact • Luis Humberto Lopez</title>
+  <meta name="description" content="Contact Luis Humberto Lopez in San Diego. English / Spanish. Mexican law advisory." />
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="i18n.js"></script>
+</head>
+<body>
+  <header>
+    <div class="container navbar">
+      <div class="brand">
+        <strong data-i18n="siteName"></strong>
+        <span data-i18n="siteTagline"></span>
+      </div>
+
+      <nav aria-label="Primary">
+        <a class="navlink" href="index.html" data-i18n="navHome">Home</a>
+        <a class="navlink" href="areas-of-practice.html" data-i18n="navPractice">Areas of Practice</a>
+        <a class="navlink" href="background.html" data-i18n="navBackground">Background</a>
+        <a class="navlink" href="contact.html" aria-current="page" data-i18n="navContact">Contact Information</a>
+
+        <div class="lang" aria-label="Language">
+          <button id="btn-en" type="button" onclick="setLang('en')" data-i18n="langEN">English</button>
+          <button id="btn-es" type="button" onclick="setLang('es')" data-i18n="langES">Español</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1 data-i18n="contactH1">Contact Information</h1>
+    <p class="muted" data-i18n="contactP1"></p>
+
+    <div class="hero" style="margin-top:14px">
+      <div class="card">
+        <h2 data-i18n="contactCardT">Direct Contact</h2>
+        <div class="kv">
+          <div>
+            <div class="label" data-i18n="contactNameL">Name</div>
+            <div class="value" data-i18n="contactNameV">Luis Humberto Lopez</div>
+          </div>
+          <div>
+            <div class="label" data-i18n="contactPhoneL">Phone</div>
+            <div class="value"><a data-phone href="#"></a></div>
+          </div>
+          <div>
+            <div class="label" data-i18n="contactEmailL">Email</div>
+            <div class="value"><a data-email href="#"></a></div>
+          </div>
+          <div>
+            <div class="label" data-i18n="contactOfficeL">Office Location</div>
+            <div class="value" data-i18n="contactOfficeV">San Diego, California</div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="card">
+          <h2 data-i18n="contactConsultT">Consultations</h2>
+          <p data-i18n="contactConsultB"></p>
+        </div>
+
+        <div class="card" style="margin-top:14px">
+          <h2 data-i18n="contactDisclaimerT">Disclaimer</h2>
+          <p class="muted" data-i18n="contactDisclaimerB"></p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div data-i18n="footer1"></div>
+      <div data-i18n="footer2"></div>
+    </div>
+  </footer>
+</body>
+</html>

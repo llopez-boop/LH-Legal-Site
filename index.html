@@ -1,14 +1,87 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Luis Humberto Lopez • Mexican Law</title>
-<link rel="stylesheet" href="styles.css"/>
-<script defer src="i18n.js"></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Luis Humberto Lopez • Mexican Law</title>
+  <meta name="description" content="California Registered Foreign Legal Consultant advising in Mexican law. San Diego. English / Spanish." />
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="i18n.js"></script>
 </head>
 <body>
-<h1>Site Ready</h1>
-<p>Your GitHub-ready version is included in this download package.</p>
+  <header>
+    <div class="container navbar">
+      <div class="brand">
+        <strong data-i18n="siteName">Luis Humberto Lopez</strong>
+        <span data-i18n="siteTagline">California Registered Foreign Legal Consultant • Mexican Law</span>
+      </div>
+
+      <nav aria-label="Primary">
+        <a class="navlink" href="index.html" aria-current="page" data-i18n="navHome">Home</a>
+        <a class="navlink" href="areas-of-practice.html" data-i18n="navPractice">Areas of Practice</a>
+        <a class="navlink" href="background.html" data-i18n="navBackground">Background</a>
+        <a class="navlink" href="contact.html" data-i18n="navContact">Contact Information</a>
+
+        <div class="lang" aria-label="Language">
+          <button id="btn-en" type="button" onclick="setLang('en')" data-i18n="langEN">English</button>
+          <button id="btn-es" type="button" onclick="setLang('es')" data-i18n="langES">Español</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <h1 data-i18n="homeH1">Trusted Guidance in Mexican Law</h1>
+        <p data-i18n="homeP1"></p>
+        <p class="muted" data-i18n="homeP2"></p>
+
+        <div class="btnRow">
+          <a class="btn primary" href="contact.html" data-i18n="homeCTA1">Contact for Consultation</a>
+          <a class="btn" href="areas-of-practice.html" data-i18n="homeCTA2">View Practice Areas</a>
+        </div>
+
+        <hr />
+
+        <h2 data-i18n="homeSectionH2">What Clients Receive</h2>
+        <ul class="list">
+          <li data-i18n="homeBul1"></li>
+          <li data-i18n="homeBul2"></li>
+          <li data-i18n="homeBul3"></li>
+          <li data-i18n="homeBul4"></li>
+        </ul>
+      </div>
+
+      <aside class="card">
+        <h2 data-i18n="homeCardTitle">Professional Credentials</h2>
+        <div class="kv">
+          <div>
+            <div class="label" data-i18n="homeKV1L">Jurisdiction</div>
+            <div class="value" data-i18n="homeKV1V">Mexican Law</div>
+          </div>
+          <div>
+            <div class="label" data-i18n="homeKV2L">Federal License</div>
+            <div class="value" data-i18n="homeKV2V">1517318</div>
+          </div>
+          <div>
+            <div class="label" data-i18n="homeKV3L">Location</div>
+            <div class="value" data-i18n="homeKV3V">San Diego, California</div>
+          </div>
+          <div>
+            <div class="label" data-i18n="homeKV4L">Languages</div>
+            <div class="value" data-i18n="homeKV4V">English / Spanish</div>
+          </div>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div data-i18n="footer1"></div>
+      <div data-i18n="footer2"></div>
+    </div>
+  </footer>
 </body>
 </html>
