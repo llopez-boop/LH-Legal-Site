@@ -58,7 +58,7 @@ const CONTENT = {
     bgBul3: "Federal License No. 1517318",
     bgBul4: "Certified by the State Bar of California to advise in Mexican law",
     bgCredentials: "Certification",
-    bgCredP: "Federal License Number: 1517318. Certified by the State Bar of California to advise in Mexican law. California Certified Notary Public.",
+    bgCredP: "Mexican Federal License No. 1517318. Certified by the State Bar of California to advise in Mexican law. California Notary Public — Commission No. 2521141 (Expires 5/23/2029).",
 
     contactH1: "Contact Information",
     contactP1: "For matters related to Mexican law, please contact directly:",
