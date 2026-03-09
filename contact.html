@@ -4,75 +4,64 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Contact • Luis Humberto Lopez</title>
-  <meta name="description" content="Contact Luis Humberto Lopez in San Diego. English / Spanish. Mexican law advisory." />
+  <meta name="description" content="Contact Luis Humberto Lopez regarding Mexican law matters." />
   <link rel="stylesheet" href="styles.css" />
   <script defer src="i18n.js"></script>
 </head>
+
 <body>
- <header>
-  <div class="container navbar">
 
-    <!-- LEFT: Name + Subtitle -->
-    <div class="brand">
-      <strong data-i18n="siteName"></strong>
-      <div class="subtitle">California Foreign Legal Consultant</div>
-    </div>
+  <header>
+    <div class="container navbar">
 
-    <!-- RIGHT: Navigation -->
-    <nav aria-label="Primary">
-      <a class="navlink" href="index.html" data-i18n="navHome">Home</a>
-      <a class="navlink" href="areas-of-practice.html" data-i18n="navPractice">Areas of Practice</a>
-      <a class="navlink" href="background.html" data-i18n="navBackground">Background</a>
-      <a class="navlink" href="contact.html" data-i18n="navContact">Contact Information</a>
-
-      <div class="lang">
-        <button id="btn-en" type="button" onclick="setLang('en')" data-i18n="langEN">English</button>
-        <button id="btn-es" type="button" onclick="setLang('es')" data-i18n="langES">Español</button>
+      <!-- LEFT: Name + Subtitle -->
+      <div class="brand">
+        <strong data-i18n="siteName"></strong>
+        <div class="subtitle">California Foreign Legal Consultant</div>
       </div>
-    </nav>
 
-  </div>
-</header>
+      <!-- RIGHT: Navigation -->
+      <nav aria-label="Primary">
+        <a class="navlink" href="index.html" data-i18n="navHome">Home</a>
+        <a class="navlink" href="areas-of-practice.html" data-i18n="navPractice">Areas of Practice</a>
+        <a class="navlink" href="background.html" data-i18n="navBackground">Background</a>
+        <a class="navlink" href="contact.html" aria-current="page" data-i18n="navContact">Contact Information</a>
+
+        <div class="lang">
+          <button id="btn-en" type="button" onclick="setLang('en')" data-i18n="langEN">English</button>
+          <button id="btn-es" type="button" onclick="setLang('es')" data-i18n="langES">Español</button>
+        </div>
+      </nav>
+
+    </div>
+  </header>
 
   <main class="container">
-    <h1 data-i18n="contactH1">Contact Information</h1>
-    <p class="muted" data-i18n="contactP1"></p>
 
-    <div class="hero" style="margin-top:14px">
-      <div class="card">
-        <h2 data-i18n="contactCardT">Direct Contact</h2>
-        <div class="kv">
-          <div>
-            <div class="label" data-i18n="contactNameL">Name</div>
-            <div class="value" data-i18n="contactNameV">Luis Humberto Lopez</div>
-          </div>
-          <div>
-            <div class="label" data-i18n="contactPhoneL">Phone</div>
-            <div class="value"><a data-phone href="#"></a></div>
-          </div>
-          <div>
-            <div class="label" data-i18n="contactEmailL">Email</div>
-            <div class="value"><a data-email href="#"></a></div>
-          </div>
-          <div>
-            <div class="label" data-i18n="contactOfficeL">Office Location</div>
-            <div class="value" data-i18n="contactOfficeV">San Diego, California</div>
-          </div>
-        </div>
-      </div>
+    <h1>Contact</h1>
 
-      <div>
-        <div class="card">
-          <h2 data-i18n="contactConsultT">Consultations</h2>
-          <p data-i18n="contactConsultB"></p>
-        </div>
+    <div class="card" style="margin-top:20px">
 
-        <div class="card" style="margin-top:14px">
-          <h2 data-i18n="contactDisclaimerT">Disclaimer</h2>
-          <p class="muted" data-i18n="contactDisclaimerB"></p>
-        </div>
-      </div>
+      <p>
+        <strong>Name:</strong><br>
+        Luis Humberto Lopez
+      </p>
+
+      <p style="margin-top:18px;">
+        <strong>Contact Info:</strong><br>
+        <a href="tel:6196269168">619 626 9168</a><br>
+        <a href="mailto:humbertolopeztc@gmail.com">
+          humbertolopeztc@gmail.com
+        </a>
+      </p>
+
+      <p style="margin-top:18px;">
+        <strong>Address:</strong><br>
+        San Diego, California
+      </p>
+
     </div>
+
   </main>
 
   <footer class="footer">
@@ -81,5 +70,6 @@
       <div data-i18n="footer2"></div>
     </div>
   </footer>
+
 </body>
 </html>
