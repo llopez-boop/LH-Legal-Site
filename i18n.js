@@ -136,7 +136,7 @@ const CONTENT = {
     bgBul3: "Licencia Federal No. 1517318",
     bgBul4: "Certificado por el Colegio de Abogados del Estado de California para asesorar en derecho mexicano",
     bgCredentials: "Certificación",
-    bgCredP: "Licencia Federal: 1517318. Certificado por el Colegio de Abogados del Estado de California para asesorar en derecho mexicano. Notario Público Certificado en California.",
+    bgCredP: "Licencia Federal Mexicana No. 1517318. Certificado por el Colegio de Abogados del Estado de California para asesorar en derecho mexicano. Notario Público del Estado de California — Comisión No. 2521141 (Vence 23/05/2029).",,
 
     contactH1: "Contacto",
     contactP1: "Para asuntos relacionados con derecho mexicano, comuníquese directamente:",
