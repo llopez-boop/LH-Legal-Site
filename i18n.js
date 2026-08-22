@@ -68,8 +68,6 @@ const CONTENT = {
     contactCardT: "Contact Information",
     contactNameL: "Name",
     contactNameV: "Luis Humberto Lopez",
-    contactPhoneL: "Phone",
-    contactPhoneV: "619 626 9168",
     contactEmailL: "Email",
     contactEmailV: "humbertolopeztc@gmail.com",
     contactOfficeL: "Address",
@@ -149,8 +147,6 @@ const CONTENT = {
     contactCardT: "Información de Contacto",
     contactNameL: "Nombre",
     contactNameV: "Luis Humberto Lopez",
-    contactPhoneL: "Teléfono",
-    contactPhoneV: "619 626 9168",
     contactEmailL: "Correo",
     contactEmailV: "humbertolopeztc@gmail.com",
     contactOfficeL: "Dirección",
@@ -188,21 +184,6 @@ function applyI18n() {
   if (btnEn && btnEs) {
     btnEn.classList.toggle("active", lang === "en");
     btnEs.classList.toggle("active", lang === "es");
-  }
-
-  const emailA = document.querySelector("[data-email]");
-  if (emailA) {
-    const email = dict.contactEmailV;
-    emailA.textContent = email;
-    emailA.setAttribute("href", `mailto:${email}`);
-  }
-
-  const phoneA = document.querySelector("[data-phone]");
-  if (phoneA) {
-    const phone = dict.contactPhoneV;
-    phoneA.textContent = phone;
-    const tel = phone.replace(/[^\d+]/g, "");
-    phoneA.setAttribute("href", `tel:${tel}`);
   }
 }
 
